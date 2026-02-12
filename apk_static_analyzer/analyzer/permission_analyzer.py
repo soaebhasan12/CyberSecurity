@@ -16,3 +16,9 @@ def analyze_permissions(apk_obj):
       found.append(perm)
   
   return found
+
+"""
+Concept used: 
+  Static metadata analysis 
+  Security rule matching
+"""
