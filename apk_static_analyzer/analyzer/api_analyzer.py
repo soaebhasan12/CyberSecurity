@@ -9,7 +9,7 @@ def api_analysis(dx):
   findings = []
   
   for cls in SUSPICIOUS_CLASSES:
-    for method in dx.find_method(classnam=cls):
+    for method in dx.find_methods(classname=cls):
       findings.append(str(method))
       
   return findings
