@@ -1,0 +1,24 @@
+{
+    "dangerous_permissions": [
+        "android.permission.ACCESS_FINE_LOCATION"
+    ],
+    "suspicious_strings": [
+        "http://",
+        "http://10.0.0.172/",
+        "http://alog.umeng.com/app_logs",
+        "http://alog.umeng.co/app_logs",
+        "http://oc.umeng.com/check_config_update",
+        "http://oc.umeng.co/check_config_update",
+        "http://au.umeng.com/api/check_app_update",
+        "http://au.umeng.co/api/check_app_update",
+        "http://www.umeng.com/app_logs",
+        "http://www.umeng.co/app_logs",
+        "http://www.umeng.com/api/check_app_update",
+        "http://www.umeng.co/api/check_app_update",
+        "http://feedback.whalecloud.com/feedback/reply",
+        "http://feedback.whalecloud.com/feedback/feedbacks"
+    ],
+    "suspicious_api_usage": [
+        "<analysis.MethodAnalysis Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;>"
+    ]
+}
